@@ -1,0 +1,52 @@
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+input{
+    /* width: 30em; */
+    /* height: 5em; */
+    font-size: 1.7em;
+   
+}
+
+
+#form{
+    border:solid black 1px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color:#ce0033;
+    margin-top: 7em;
+    
+}
+
+#submit{
+    width: 10em;
+    height: 2em;
+    margin-top: 2em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 2em;
+    
+    
+}
+
+#image{
+    width: 200px;
+    margin-left: 20px;
+    height:100px;
+}
+
+.header{
+    display: flex;
+    background-color: #ce0033;
+    color: white;
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: none;
+}
