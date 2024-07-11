@@ -1,5 +1,5 @@
 label{
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 2em;
 }
@@ -18,10 +18,28 @@ input{
     width: 400px;
     margin: 0 auto;
     padding: 30px;
-    background-color:#ce0033;
+    /* background-color:#ce0033; */
     margin-top: 7em;
     
 }
+
+.hidden {
+    display: none;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+/* #erreur{
+    text-align: center;
+    font-size: 2em;
+} */
 
 #submit{
     width: 10em;
@@ -29,7 +47,7 @@ input{
     margin-top: 2em;
     font-weight: bold;
     color: white;
-    background-color: black;
+    background-color: #ce0033;
     font-weight: bold;
     font-size: 2em;
     
